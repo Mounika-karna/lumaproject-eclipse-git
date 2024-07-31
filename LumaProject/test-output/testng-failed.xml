@@ -3,14 +3,14 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.luma.test.CheckoutPageTest">
+      <class name="com.luma.test.HoodiesPageTest">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="clickOnPlaceTest"/>
-          <include name="clickOnNextTest"/>
+          <include name="selectProductTest"/>
+          <include name="addToCartTest"/>
           <include name="afterMethod"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- com.luma.test.CheckoutPageTest -->
+      </class> <!-- com.luma.test.HoodiesPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -2,234 +2,234 @@
 <testng-results ignored="0" total="32" passed="32" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-30T22:27:46 IST" name="Suite" finished-at="2024-07-30T22:34:09 IST" duration-ms="383039">
+  <suite started-at="2024-07-31T18:36:08 IST" name="Suite" finished-at="2024-07-31T18:40:37 IST" duration-ms="269583">
     <groups>
     </groups>
-    <test started-at="2024-07-30T22:27:46 IST" name="Test" finished-at="2024-07-30T22:34:09 IST" duration-ms="383039">
+    <test started-at="2024-07-31T18:36:08 IST" name="Test" finished-at="2024-07-31T18:40:37 IST" duration-ms="269583">
       <class name="com.luma.test.OpenWishlistTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.luma.test.OpenWishlistTest@7c6908d7]" started-at="2024-07-30T22:31:48 IST" name="beforeMethod" finished-at="2024-07-30T22:32:04 IST" duration-ms="15328" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.luma.test.OpenWishlistTest@7c6908d7]" started-at="2024-07-31T18:39:22 IST" name="beforeMethod" finished-at="2024-07-31T18:39:43 IST" duration-ms="21201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="myWishlisttest()[pri:0, instance:com.luma.test.OpenWishlistTest@7c6908d7]" started-at="2024-07-30T22:32:04 IST" name="myWishlisttest" finished-at="2024-07-30T22:32:14 IST" duration-ms="10207" status="PASS">
+        <test-method signature="myWishlisttest()[pri:0, instance:com.luma.test.OpenWishlistTest@7c6908d7]" started-at="2024-07-31T18:39:43 IST" name="myWishlisttest" finished-at="2024-07-31T18:39:53 IST" duration-ms="10244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myWishlisttest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.luma.test.OpenWishlistTest@7c6908d7]" started-at="2024-07-30T22:32:14 IST" name="afterMethod" finished-at="2024-07-30T22:32:14 IST" duration-ms="661" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.luma.test.OpenWishlistTest@7c6908d7]" started-at="2024-07-31T18:39:53 IST" name="afterMethod" finished-at="2024-07-31T18:39:54 IST" duration-ms="655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.luma.test.OpenWishlistTest -->
       <class name="com.luma.test.AddToCartTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.luma.test.AddToCartTest@198b6731]" started-at="2024-07-30T22:31:22 IST" name="beforeMethod" finished-at="2024-07-30T22:31:39 IST" duration-ms="17504" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.luma.test.AddToCartTest@198b6731]" started-at="2024-07-31T18:38:59 IST" name="beforeMethod" finished-at="2024-07-31T18:39:13 IST" duration-ms="13546" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="clickOnYogaTest()[pri:1, instance:com.luma.test.AddToCartTest@198b6731]" started-at="2024-07-30T22:31:39 IST" name="clickOnYogaTest" finished-at="2024-07-30T22:31:43 IST" duration-ms="3604" status="PASS">
+        <test-method signature="clickOnYogaTest()[pri:1, instance:com.luma.test.AddToCartTest@198b6731]" started-at="2024-07-31T18:39:13 IST" name="clickOnYogaTest" finished-at="2024-07-31T18:39:17 IST" duration-ms="3875" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnYogaTest -->
-        <test-method signature="sortByTest()[pri:2, instance:com.luma.test.AddToCartTest@198b6731]" started-at="2024-07-30T22:31:43 IST" name="sortByTest" finished-at="2024-07-30T22:31:47 IST" duration-ms="4787" status="PASS">
+        <test-method signature="sortByTest()[pri:2, instance:com.luma.test.AddToCartTest@198b6731]" started-at="2024-07-31T18:39:17 IST" name="sortByTest" finished-at="2024-07-31T18:39:21 IST" duration-ms="4420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortByTest -->
-        <test-method signature="addToCartTest()[pri:3, instance:com.luma.test.AddToCartTest@198b6731]" started-at="2024-07-30T22:31:47 IST" name="addToCartTest" finished-at="2024-07-30T22:31:48 IST" duration-ms="231" status="PASS">
+        <test-method signature="addToCartTest()[pri:3, instance:com.luma.test.AddToCartTest@198b6731]" started-at="2024-07-31T18:39:21 IST" name="addToCartTest" finished-at="2024-07-31T18:39:21 IST" duration-ms="132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCartTest -->
-        <test-method signature="verifyAddToCartTitleTest()[pri:4, instance:com.luma.test.AddToCartTest@198b6731]" started-at="2024-07-30T22:31:48 IST" name="verifyAddToCartTitleTest" finished-at="2024-07-30T22:31:48 IST" duration-ms="41" status="PASS">
+        <test-method signature="verifyAddToCartTitleTest()[pri:4, instance:com.luma.test.AddToCartTest@198b6731]" started-at="2024-07-31T18:39:21 IST" name="verifyAddToCartTitleTest" finished-at="2024-07-31T18:39:21 IST" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddToCartTitleTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.luma.test.AddToCartTest@198b6731]" started-at="2024-07-30T22:31:48 IST" name="afterMethod" finished-at="2024-07-30T22:31:48 IST" duration-ms="553" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.luma.test.AddToCartTest@198b6731]" started-at="2024-07-31T18:39:21 IST" name="afterMethod" finished-at="2024-07-31T18:39:22 IST" duration-ms="523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.luma.test.AddToCartTest -->
       <class name="com.luma.test.LoginPageTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.luma.test.LoginPageTest@489115ef]" started-at="2024-07-30T22:30:23 IST" name="beforeMethod" finished-at="2024-07-30T22:30:31 IST" duration-ms="7780" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.luma.test.LoginPageTest@489115ef]" started-at="2024-07-31T18:38:08 IST" name="beforeMethod" finished-at="2024-07-31T18:38:28 IST" duration-ms="19960" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="clickOnSignInTest()[pri:1, instance:com.luma.test.LoginPageTest@489115ef]" started-at="2024-07-30T22:30:31 IST" name="clickOnSignInTest" finished-at="2024-07-30T22:30:34 IST" duration-ms="2737" status="PASS">
+        <test-method signature="clickOnSignInTest()[pri:1, instance:com.luma.test.LoginPageTest@489115ef]" started-at="2024-07-31T18:38:28 IST" name="clickOnSignInTest" finished-at="2024-07-31T18:38:30 IST" duration-ms="1583" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnSignInTest -->
-        <test-method signature="loginTest()[pri:2, instance:com.luma.test.LoginPageTest@489115ef]" started-at="2024-07-30T22:30:34 IST" name="loginTest" finished-at="2024-07-30T22:30:39 IST" duration-ms="5089" status="PASS">
+        <test-method signature="loginTest()[pri:2, instance:com.luma.test.LoginPageTest@489115ef]" started-at="2024-07-31T18:38:30 IST" name="loginTest" finished-at="2024-07-31T18:38:35 IST" duration-ms="4909" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.luma.test.LoginPageTest@489115ef]" started-at="2024-07-30T22:30:39 IST" name="afterMethod" finished-at="2024-07-30T22:30:41 IST" duration-ms="2125" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.luma.test.LoginPageTest@489115ef]" started-at="2024-07-31T18:38:35 IST" name="afterMethod" finished-at="2024-07-31T18:38:35 IST" duration-ms="471" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.luma.test.LoginPageTest -->
       <class name="com.luma.test.SignOutTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.luma.test.SignOutTest@6ed3ccb2]" started-at="2024-07-30T22:28:10 IST" name="beforeMethod" finished-at="2024-07-30T22:28:26 IST" duration-ms="15680" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.luma.test.SignOutTest@6ed3ccb2]" started-at="2024-07-31T18:36:35 IST" name="beforeMethod" finished-at="2024-07-31T18:36:48 IST" duration-ms="12777" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="signOutTest()[pri:0, instance:com.luma.test.SignOutTest@6ed3ccb2]" started-at="2024-07-30T22:28:26 IST" name="signOutTest" finished-at="2024-07-30T22:28:33 IST" duration-ms="7102" status="PASS">
+        <test-method signature="signOutTest()[pri:0, instance:com.luma.test.SignOutTest@6ed3ccb2]" started-at="2024-07-31T18:36:48 IST" name="signOutTest" finished-at="2024-07-31T18:36:55 IST" duration-ms="6982" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signOutTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.luma.test.SignOutTest@6ed3ccb2]" started-at="2024-07-30T22:28:33 IST" name="afterMethod" finished-at="2024-07-30T22:28:34 IST" duration-ms="677" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.luma.test.SignOutTest@6ed3ccb2]" started-at="2024-07-31T18:36:55 IST" name="afterMethod" finished-at="2024-07-31T18:36:55 IST" duration-ms="624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.luma.test.SignOutTest -->
       <class name="com.luma.test.AddReviewTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.luma.test.AddReviewTest@3857f613]" started-at="2024-07-30T22:30:41 IST" name="beforeMethod" finished-at="2024-07-30T22:30:59 IST" duration-ms="17728" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.luma.test.AddReviewTest@3857f613]" started-at="2024-07-31T18:38:35 IST" name="beforeMethod" finished-at="2024-07-31T18:38:49 IST" duration-ms="13985" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="searchTest()[pri:1, instance:com.luma.test.AddReviewTest@3857f613]" started-at="2024-07-30T22:30:59 IST" name="searchTest" finished-at="2024-07-30T22:31:05 IST" duration-ms="6008" status="PASS">
+        <test-method signature="searchTest()[pri:1, instance:com.luma.test.AddReviewTest@3857f613]" started-at="2024-07-31T18:38:49 IST" name="searchTest" finished-at="2024-07-31T18:38:54 IST" duration-ms="4813" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method signature="nextTest()[pri:2, instance:com.luma.test.AddReviewTest@3857f613]" started-at="2024-07-30T22:31:05 IST" name="nextTest" finished-at="2024-07-30T22:31:13 IST" duration-ms="7789" status="PASS">
+        <test-method signature="nextTest()[pri:2, instance:com.luma.test.AddReviewTest@3857f613]" started-at="2024-07-31T18:38:54 IST" name="nextTest" finished-at="2024-07-31T18:38:57 IST" duration-ms="2589" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nextTest -->
-        <test-method signature="clickTest()[pri:3, instance:com.luma.test.AddReviewTest@3857f613]" started-at="2024-07-30T22:31:13 IST" name="clickTest" finished-at="2024-07-30T22:31:21 IST" duration-ms="8196" status="PASS">
+        <test-method signature="clickTest()[pri:3, instance:com.luma.test.AddReviewTest@3857f613]" started-at="2024-07-31T18:38:57 IST" name="clickTest" finished-at="2024-07-31T18:38:58 IST" duration-ms="1889" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickTest -->
-        <test-method signature="addReviewTest()[pri:4, instance:com.luma.test.AddReviewTest@3857f613]" started-at="2024-07-30T22:31:21 IST" name="addReviewTest" finished-at="2024-07-30T22:31:21 IST" duration-ms="173" status="PASS">
+        <test-method signature="addReviewTest()[pri:4, instance:com.luma.test.AddReviewTest@3857f613]" started-at="2024-07-31T18:38:58 IST" name="addReviewTest" finished-at="2024-07-31T18:38:59 IST" duration-ms="176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addReviewTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.luma.test.AddReviewTest@3857f613]" started-at="2024-07-30T22:31:21 IST" name="afterMethod" finished-at="2024-07-30T22:31:22 IST" duration-ms="564" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.luma.test.AddReviewTest@3857f613]" started-at="2024-07-31T18:38:59 IST" name="afterMethod" finished-at="2024-07-31T18:38:59 IST" duration-ms="627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.luma.test.AddReviewTest -->
       <class name="com.luma.test.CheckoutPageTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.luma.test.CheckoutPageTest@15de0b3c]" started-at="2024-07-30T22:29:40 IST" name="beforeMethod" finished-at="2024-07-30T22:29:55 IST" duration-ms="15562" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.luma.test.CheckoutPageTest@15de0b3c]" started-at="2024-07-31T18:37:26 IST" name="beforeMethod" finished-at="2024-07-31T18:37:39 IST" duration-ms="12290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="clickOnGearTest()[pri:1, instance:com.luma.test.CheckoutPageTest@15de0b3c]" started-at="2024-07-30T22:29:55 IST" name="clickOnGearTest" finished-at="2024-07-30T22:29:59 IST" duration-ms="3539" status="PASS">
+        <test-method signature="clickOnGearTest()[pri:1, instance:com.luma.test.CheckoutPageTest@15de0b3c]" started-at="2024-07-31T18:37:39 IST" name="clickOnGearTest" finished-at="2024-07-31T18:37:43 IST" duration-ms="3959" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnGearTest -->
-        <test-method signature="clickOnFitnessTest()[pri:2, instance:com.luma.test.CheckoutPageTest@15de0b3c]" started-at="2024-07-30T22:29:59 IST" name="clickOnFitnessTest" finished-at="2024-07-30T22:30:01 IST" duration-ms="2499" status="PASS">
+        <test-method signature="clickOnFitnessTest()[pri:2, instance:com.luma.test.CheckoutPageTest@15de0b3c]" started-at="2024-07-31T18:37:43 IST" name="clickOnFitnessTest" finished-at="2024-07-31T18:37:45 IST" duration-ms="1906" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnFitnessTest -->
-        <test-method signature="clickOnImgTest()[pri:3, instance:com.luma.test.CheckoutPageTest@15de0b3c]" started-at="2024-07-30T22:30:01 IST" name="clickOnImgTest" finished-at="2024-07-30T22:30:03 IST" duration-ms="1937" status="PASS">
+        <test-method signature="clickOnImgTest()[pri:3, instance:com.luma.test.CheckoutPageTest@15de0b3c]" started-at="2024-07-31T18:37:45 IST" name="clickOnImgTest" finished-at="2024-07-31T18:37:47 IST" duration-ms="2022" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnImgTest -->
-        <test-method signature="addToCartTest()[pri:4, instance:com.luma.test.CheckoutPageTest@15de0b3c]" started-at="2024-07-30T22:30:03 IST" name="addToCartTest" finished-at="2024-07-30T22:30:04 IST" duration-ms="177" status="PASS">
+        <test-method signature="addToCartTest()[pri:4, instance:com.luma.test.CheckoutPageTest@15de0b3c]" started-at="2024-07-31T18:37:47 IST" name="addToCartTest" finished-at="2024-07-31T18:37:47 IST" duration-ms="215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCartTest -->
-        <test-method signature="clickOnCartTest()[pri:5, instance:com.luma.test.CheckoutPageTest@15de0b3c]" started-at="2024-07-30T22:30:04 IST" name="clickOnCartTest" finished-at="2024-07-30T22:30:04 IST" duration-ms="237" status="PASS">
+        <test-method signature="clickOnCartTest()[pri:5, instance:com.luma.test.CheckoutPageTest@15de0b3c]" started-at="2024-07-31T18:37:47 IST" name="clickOnCartTest" finished-at="2024-07-31T18:37:47 IST" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnCartTest -->
-        <test-method signature="clickOnCheckOutTest()[pri:6, instance:com.luma.test.CheckoutPageTest@15de0b3c]" started-at="2024-07-30T22:30:04 IST" name="clickOnCheckOutTest" finished-at="2024-07-30T22:30:07 IST" duration-ms="3527" status="PASS">
+        <test-method signature="clickOnCheckOutTest()[pri:6, instance:com.luma.test.CheckoutPageTest@15de0b3c]" started-at="2024-07-31T18:37:47 IST" name="clickOnCheckOutTest" finished-at="2024-07-31T18:37:52 IST" duration-ms="5108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnCheckOutTest -->
-        <test-method signature="clickOnNextTest()[pri:7, instance:com.luma.test.CheckoutPageTest@15de0b3c]" started-at="2024-07-30T22:30:07 IST" name="clickOnNextTest" finished-at="2024-07-30T22:30:12 IST" duration-ms="5162" status="PASS">
+        <test-method signature="clickOnNextTest()[pri:7, instance:com.luma.test.CheckoutPageTest@15de0b3c]" started-at="2024-07-31T18:37:52 IST" name="clickOnNextTest" finished-at="2024-07-31T18:37:57 IST" duration-ms="5185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnNextTest -->
-        <test-method signature="clickOnPlaceTest()[pri:8, instance:com.luma.test.CheckoutPageTest@15de0b3c]" started-at="2024-07-30T22:30:12 IST" name="clickOnPlaceTest" finished-at="2024-07-30T22:30:23 IST" duration-ms="10172" status="PASS">
+        <test-method signature="clickOnPlaceTest()[pri:8, instance:com.luma.test.CheckoutPageTest@15de0b3c]" started-at="2024-07-31T18:37:57 IST" name="clickOnPlaceTest" finished-at="2024-07-31T18:38:08 IST" duration-ms="10197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnPlaceTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.luma.test.CheckoutPageTest@15de0b3c]" started-at="2024-07-30T22:30:23 IST" name="afterMethod" finished-at="2024-07-30T22:30:23 IST" duration-ms="645" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.luma.test.CheckoutPageTest@15de0b3c]" started-at="2024-07-31T18:38:08 IST" name="afterMethod" finished-at="2024-07-31T18:38:08 IST" duration-ms="666" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.luma.test.CheckoutPageTest -->
       <class name="com.luma.test.AddressFillingPageTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.luma.test.AddressFillingPageTest@1a677343]" started-at="2024-07-30T22:28:34 IST" name="beforeMethod" finished-at="2024-07-30T22:28:57 IST" duration-ms="23382" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.luma.test.AddressFillingPageTest@1a677343]" started-at="2024-07-31T18:36:55 IST" name="beforeMethod" finished-at="2024-07-31T18:37:08 IST" duration-ms="13217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="clickOnWelcomeTest()[pri:1, instance:com.luma.test.AddressFillingPageTest@1a677343]" started-at="2024-07-30T22:28:57 IST" name="clickOnWelcomeTest" finished-at="2024-07-30T22:29:12 IST" duration-ms="14584" status="PASS">
+        <test-method signature="clickOnWelcomeTest()[pri:1, instance:com.luma.test.AddressFillingPageTest@1a677343]" started-at="2024-07-31T18:37:08 IST" name="clickOnWelcomeTest" finished-at="2024-07-31T18:37:16 IST" duration-ms="7745" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnWelcomeTest -->
-        <test-method signature="clickOnAddressTest()[pri:2, instance:com.luma.test.AddressFillingPageTest@1a677343]" started-at="2024-07-30T22:29:12 IST" name="clickOnAddressTest" finished-at="2024-07-30T22:29:30 IST" duration-ms="18641" status="PASS">
+        <test-method signature="clickOnAddressTest()[pri:2, instance:com.luma.test.AddressFillingPageTest@1a677343]" started-at="2024-07-31T18:37:16 IST" name="clickOnAddressTest" finished-at="2024-07-31T18:37:20 IST" duration-ms="4186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnAddressTest -->
-        <test-method signature="saveAddressTest()[pri:3, instance:com.luma.test.AddressFillingPageTest@1a677343]" started-at="2024-07-30T22:29:30 IST" name="saveAddressTest" finished-at="2024-07-30T22:29:39 IST" duration-ms="8588" status="PASS">
+        <test-method signature="saveAddressTest()[pri:3, instance:com.luma.test.AddressFillingPageTest@1a677343]" started-at="2024-07-31T18:37:20 IST" name="saveAddressTest" finished-at="2024-07-31T18:37:26 IST" duration-ms="5514" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saveAddressTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.luma.test.AddressFillingPageTest@1a677343]" started-at="2024-07-30T22:29:39 IST" name="afterMethod" finished-at="2024-07-30T22:29:40 IST" duration-ms="765" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.luma.test.AddressFillingPageTest@1a677343]" started-at="2024-07-31T18:37:26 IST" name="afterMethod" finished-at="2024-07-31T18:37:26 IST" duration-ms="606" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.luma.test.AddressFillingPageTest -->
       <class name="com.luma.test.CreateAccountTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.luma.test.CreateAccountTest@3bf7ca37]" started-at="2024-07-30T22:33:51 IST" name="beforeMethod" finished-at="2024-07-30T22:34:00 IST" duration-ms="8836" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.luma.test.CreateAccountTest@3bf7ca37]" started-at="2024-07-31T18:40:22 IST" name="beforeMethod" finished-at="2024-07-31T18:40:29 IST" duration-ms="7074" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="AccountCreationTest()[pri:0, instance:com.luma.test.CreateAccountTest@3bf7ca37]" started-at="2024-07-30T22:34:00 IST" name="AccountCreationTest" finished-at="2024-07-30T22:34:08 IST" duration-ms="8441" status="PASS">
+        <test-method signature="AccountCreationTest()[pri:0, instance:com.luma.test.CreateAccountTest@3bf7ca37]" started-at="2024-07-31T18:40:29 IST" name="AccountCreationTest" finished-at="2024-07-31T18:40:36 IST" duration-ms="7318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AccountCreationTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.luma.test.CreateAccountTest@3bf7ca37]" started-at="2024-07-30T22:34:08 IST" name="afterMethod" finished-at="2024-07-30T22:34:09 IST" duration-ms="503" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.luma.test.CreateAccountTest@3bf7ca37]" started-at="2024-07-31T18:40:36 IST" name="afterMethod" finished-at="2024-07-31T18:40:37 IST" duration-ms="1110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.luma.test.CreateAccountTest -->
       <class name="com.luma.test.AddToWishlistTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.luma.test.AddToWishlistTest@3c9754d8]" started-at="2024-07-30T22:32:14 IST" name="beforeMethod" finished-at="2024-07-30T22:32:40 IST" duration-ms="25280" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.luma.test.AddToWishlistTest@3c9754d8]" started-at="2024-07-31T18:39:54 IST" name="beforeMethod" finished-at="2024-07-31T18:40:08 IST" duration-ms="13697" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="clickOnGearTest()[pri:1, instance:com.luma.test.AddToWishlistTest@3c9754d8]" started-at="2024-07-30T22:32:40 IST" name="clickOnGearTest" finished-at="2024-07-30T22:32:48 IST" duration-ms="8692" status="PASS">
+        <test-method signature="clickOnGearTest()[pri:1, instance:com.luma.test.AddToWishlistTest@3c9754d8]" started-at="2024-07-31T18:40:08 IST" name="clickOnGearTest" finished-at="2024-07-31T18:40:11 IST" duration-ms="3103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnGearTest -->
-        <test-method signature="clickOnBagsTest()[pri:2, instance:com.luma.test.AddToWishlistTest@3c9754d8]" started-at="2024-07-30T22:32:48 IST" name="clickOnBagsTest" finished-at="2024-07-30T22:32:53 IST" duration-ms="4212" status="PASS">
+        <test-method signature="clickOnBagsTest()[pri:2, instance:com.luma.test.AddToWishlistTest@3c9754d8]" started-at="2024-07-31T18:40:11 IST" name="clickOnBagsTest" finished-at="2024-07-31T18:40:13 IST" duration-ms="1943" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnBagsTest -->
-        <test-method signature="Features()[pri:3, instance:com.luma.test.AddToWishlistTest@3c9754d8]" started-at="2024-07-30T22:32:53 IST" name="Features" finished-at="2024-07-30T22:33:47 IST" duration-ms="54037" status="PASS">
+        <test-method signature="Features()[pri:3, instance:com.luma.test.AddToWishlistTest@3c9754d8]" started-at="2024-07-31T18:40:13 IST" name="Features" finished-at="2024-07-31T18:40:19 IST" duration-ms="6177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Features -->
-        <test-method signature="addToWishlistTest()[pri:4, instance:com.luma.test.AddToWishlistTest@3c9754d8]" started-at="2024-07-30T22:33:47 IST" name="addToWishlistTest" finished-at="2024-07-30T22:33:50 IST" duration-ms="3652" status="PASS">
+        <test-method signature="addToWishlistTest()[pri:4, instance:com.luma.test.AddToWishlistTest@3c9754d8]" started-at="2024-07-31T18:40:19 IST" name="addToWishlistTest" finished-at="2024-07-31T18:40:21 IST" duration-ms="2265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToWishlistTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.luma.test.AddToWishlistTest@3c9754d8]" started-at="2024-07-30T22:33:50 IST" name="afterMethod" finished-at="2024-07-30T22:33:51 IST" duration-ms="701" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.luma.test.AddToWishlistTest@3c9754d8]" started-at="2024-07-31T18:40:21 IST" name="afterMethod" finished-at="2024-07-31T18:40:22 IST" duration-ms="612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.luma.test.AddToWishlistTest -->
       <class name="com.luma.test.HoodiesPageTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.luma.test.HoodiesPageTest@3cd3e762]" started-at="2024-07-30T22:27:46 IST" name="beforeMethod" finished-at="2024-07-30T22:28:02 IST" duration-ms="15654" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.luma.test.HoodiesPageTest@3cd3e762]" started-at="2024-07-31T18:36:08 IST" name="beforeMethod" finished-at="2024-07-31T18:36:23 IST" duration-ms="15220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="clickOnSaleTest()[pri:1, instance:com.luma.test.HoodiesPageTest@3cd3e762]" started-at="2024-07-30T22:28:02 IST" name="clickOnSaleTest" finished-at="2024-07-30T22:28:04 IST" duration-ms="2620" status="PASS">
+        <test-method signature="clickOnSaleTest()[pri:1, instance:com.luma.test.HoodiesPageTest@3cd3e762]" started-at="2024-07-31T18:36:23 IST" name="clickOnSaleTest" finished-at="2024-07-31T18:36:25 IST" duration-ms="2028" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnSaleTest -->
-        <test-method signature="clickOnHoodiesTest()[pri:2, instance:com.luma.test.HoodiesPageTest@3cd3e762]" started-at="2024-07-30T22:28:04 IST" name="clickOnHoodiesTest" finished-at="2024-07-30T22:28:06 IST" duration-ms="2236" status="PASS">
+        <test-method signature="clickOnHoodiesTest()[pri:2, instance:com.luma.test.HoodiesPageTest@3cd3e762]" started-at="2024-07-31T18:36:25 IST" name="clickOnHoodiesTest" finished-at="2024-07-31T18:36:28 IST" duration-ms="3007" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnHoodiesTest -->
-        <test-method signature="selectProductTest()[pri:3, instance:com.luma.test.HoodiesPageTest@3cd3e762]" started-at="2024-07-30T22:28:06 IST" name="selectProductTest" finished-at="2024-07-30T22:28:10 IST" duration-ms="3160" status="PASS">
+        <test-method signature="selectProductTest()[pri:3, instance:com.luma.test.HoodiesPageTest@3cd3e762]" started-at="2024-07-31T18:36:28 IST" name="selectProductTest" finished-at="2024-07-31T18:36:34 IST" duration-ms="5961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectProductTest -->
-        <test-method signature="addToCartTest()[pri:4, instance:com.luma.test.HoodiesPageTest@3cd3e762]" started-at="2024-07-30T22:28:10 IST" name="addToCartTest" finished-at="2024-07-30T22:28:10 IST" duration-ms="159" status="PASS">
+        <test-method signature="addToCartTest()[pri:4, instance:com.luma.test.HoodiesPageTest@3cd3e762]" started-at="2024-07-31T18:36:34 IST" name="addToCartTest" finished-at="2024-07-31T18:36:34 IST" duration-ms="151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCartTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.luma.test.HoodiesPageTest@3cd3e762]" started-at="2024-07-30T22:28:10 IST" name="afterMethod" finished-at="2024-07-30T22:28:10 IST" duration-ms="579" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.luma.test.HoodiesPageTest@3cd3e762]" started-at="2024-07-31T18:36:34 IST" name="afterMethod" finished-at="2024-07-31T18:36:35 IST" duration-ms="548" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
