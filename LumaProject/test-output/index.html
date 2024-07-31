@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\rjvar\eclipse-workspace\LumaProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">32 methods,   32 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.CreateAccountTest" class="method navigator-link" hash-for-method="AccountCreationTest">AccountCreationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.AddToWishlistTest" class="method navigator-link" hash-for-method="Features">Features</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.AddReviewTest" class="method navigator-link" hash-for-method="addReviewTest">addReviewTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.AddToCartTest" class="method navigator-link" hash-for-method="addToCartTest">addToCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.CheckoutPageTest" class="method navigator-link" hash-for-method="addToCartTest">addToCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.HoodiesPageTest" class="method navigator-link" hash-for-method="addToCartTest">addToCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.AddToWishlistTest" class="method navigator-link" hash-for-method="addToWishlistTest">addToWishlistTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.AddressFillingPageTest" class="method navigator-link" hash-for-method="clickOnAddressTest">clickOnAddressTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.AddToWishlistTest" class="method navigator-link" hash-for-method="clickOnBagsTest">clickOnBagsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.CheckoutPageTest" class="method navigator-link" hash-for-method="clickOnCartTest">clickOnCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.CheckoutPageTest" class="method navigator-link" hash-for-method="clickOnCheckOutTest">clickOnCheckOutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.CheckoutPageTest" class="method navigator-link" hash-for-method="clickOnFitnessTest">clickOnFitnessTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.AddToWishlistTest" class="method navigator-link" hash-for-method="clickOnGearTest">clickOnGearTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.CheckoutPageTest" class="method navigator-link" hash-for-method="clickOnGearTest">clickOnGearTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.HoodiesPageTest" class="method navigator-link" hash-for-method="clickOnHoodiesTest">clickOnHoodiesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.CheckoutPageTest" class="method navigator-link" hash-for-method="clickOnImgTest">clickOnImgTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.CheckoutPageTest" class="method navigator-link" hash-for-method="clickOnNextTest">clickOnNextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.CheckoutPageTest" class="method navigator-link" hash-for-method="clickOnPlaceTest">clickOnPlaceTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.HoodiesPageTest" class="method navigator-link" hash-for-method="clickOnSaleTest">clickOnSaleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.LoginPageTest" class="method navigator-link" hash-for-method="clickOnSignInTest">clickOnSignInTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.AddressFillingPageTest" class="method navigator-link" hash-for-method="clickOnWelcomeTest">clickOnWelcomeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.AddToCartTest" class="method navigator-link" hash-for-method="clickOnYogaTest">clickOnYogaTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.AddReviewTest" class="method navigator-link" hash-for-method="clickTest">clickTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.LoginPageTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.OpenWishlistTest" class="method navigator-link" hash-for-method="myWishlisttest">myWishlisttest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.AddReviewTest" class="method navigator-link" hash-for-method="nextTest">nextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.AddressFillingPageTest" class="method navigator-link" hash-for-method="saveAddressTest">saveAddressTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.AddReviewTest" class="method navigator-link" hash-for-method="searchTest">searchTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.HoodiesPageTest" class="method navigator-link" hash-for-method="selectProductTest">selectProductTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.SignOutTest" class="method navigator-link" hash-for-method="signOutTest">signOutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.AddToCartTest" class="method navigator-link" hash-for-method="sortByTest">sortByTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.luma.test.AddToCartTest" class="method navigator-link" hash-for-method="verifyAddToCartTitleTest">verifyAddToCartTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.luma.test.SignOutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signOutTest">
+                  </a> <!-- signOutTest -->
+                  <span class="method-name">signOutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.luma.test.AddressFillingPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnAddressTest">
+                  </a> <!-- clickOnAddressTest -->
+                  <span class="method-name">clickOnAddressTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnWelcomeTest">
+                  </a> <!-- clickOnWelcomeTest -->
+                  <span class="method-name">clickOnWelcomeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="saveAddressTest">
+                  </a> <!-- saveAddressTest -->
+                  <span class="method-name">saveAddressTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.luma.test.HoodiesPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToCartTest">
+                  </a> <!-- addToCartTest -->
+                  <span class="method-name">addToCartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnHoodiesTest">
+                  </a> <!-- clickOnHoodiesTest -->
+                  <span class="method-name">clickOnHoodiesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnSaleTest">
+                  </a> <!-- clickOnSaleTest -->
+                  <span class="method-name">clickOnSaleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectProductTest">
+                  </a> <!-- selectProductTest -->
+                  <span class="method-name">selectProductTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.luma.test.AddReviewTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addReviewTest">
+                  </a> <!-- addReviewTest -->
+                  <span class="method-name">addReviewTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickTest">
+                  </a> <!-- clickTest -->
+                  <span class="method-name">clickTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="nextTest">
+                  </a> <!-- nextTest -->
+                  <span class="method-name">nextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest">
+                  </a> <!-- searchTest -->
+                  <span class="method-name">searchTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.luma.test.CheckoutPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToCartTest">
+                  </a> <!-- addToCartTest -->
+                  <span class="method-name">addToCartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnCartTest">
+                  </a> <!-- clickOnCartTest -->
+                  <span class="method-name">clickOnCartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnCheckOutTest">
+                  </a> <!-- clickOnCheckOutTest -->
+                  <span class="method-name">clickOnCheckOutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnFitnessTest">
+                  </a> <!-- clickOnFitnessTest -->
+                  <span class="method-name">clickOnFitnessTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnGearTest">
+                  </a> <!-- clickOnGearTest -->
+                  <span class="method-name">clickOnGearTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnImgTest">
+                  </a> <!-- clickOnImgTest -->
+                  <span class="method-name">clickOnImgTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnNextTest">
+                  </a> <!-- clickOnNextTest -->
+                  <span class="method-name">clickOnNextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnPlaceTest">
+                  </a> <!-- clickOnPlaceTest -->
+                  <span class="method-name">clickOnPlaceTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.luma.test.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnSignInTest">
+                  </a> <!-- clickOnSignInTest -->
+                  <span class="method-name">clickOnSignInTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.luma.test.CreateAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AccountCreationTest">
+                  </a> <!-- AccountCreationTest -->
+                  <span class="method-name">AccountCreationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.luma.test.AddToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToCartTest">
+                  </a> <!-- addToCartTest -->
+                  <span class="method-name">addToCartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnYogaTest">
+                  </a> <!-- clickOnYogaTest -->
+                  <span class="method-name">clickOnYogaTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortByTest">
+                  </a> <!-- sortByTest -->
+                  <span class="method-name">sortByTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddToCartTitleTest">
+                  </a> <!-- verifyAddToCartTitleTest -->
+                  <span class="method-name">verifyAddToCartTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.luma.test.OpenWishlistTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="myWishlisttest">
+                  </a> <!-- myWishlisttest -->
+                  <span class="method-name">myWishlisttest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.luma.test.AddToWishlistTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Features">
+                  </a> <!-- Features -->
+                  <span class="method-name">Features</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToWishlistTest">
+                  </a> <!-- addToWishlistTest -->
+                  <span class="method-name">addToWishlistTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnBagsTest">
+                  </a> <!-- clickOnBagsTest -->
+                  <span class="method-name">clickOnBagsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnGearTest">
+                  </a> <!-- clickOnGearTest -->
+                  <span class="method-name">clickOnGearTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\rjvar\eclipse-workspace\LumaProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.luma.test.HoodiesPageTest&quot;/&gt;
+      &lt;class name=&quot;com.luma.test.SignOutTest&quot;/&gt;
+      &lt;class name=&quot;com.luma.test.AddressFillingPageTest&quot;/&gt;
+      &lt;class name=&quot;com.luma.test.CheckoutPageTest&quot;/&gt;
+      &lt;class name=&quot;com.luma.test.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.luma.test.AddReviewTest&quot;/&gt;
+      &lt;class name=&quot;com.luma.test.AddToCartTest&quot;/&gt;
+      &lt;class name=&quot;com.luma.test.OpenWishlistTest&quot;/&gt;
+      &lt;class name=&quot;com.luma.test.AddToWishlistTest&quot;/&gt;
+      &lt;class name=&quot;com.luma.test.CreateAccountTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (10 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(32);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Features')
+data.setCell(0, 2, 'com.luma.test.AddToWishlistTest')
+data.setCell(0, 3, 54037);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'clickOnAddressTest')
+data.setCell(1, 2, 'com.luma.test.AddressFillingPageTest')
+data.setCell(1, 3, 18641);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'clickOnWelcomeTest')
+data.setCell(2, 2, 'com.luma.test.AddressFillingPageTest')
+data.setCell(2, 3, 14584);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'myWishlisttest')
+data.setCell(3, 2, 'com.luma.test.OpenWishlistTest')
+data.setCell(3, 3, 10207);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'clickOnPlaceTest')
+data.setCell(4, 2, 'com.luma.test.CheckoutPageTest')
+data.setCell(4, 3, 10172);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'clickOnGearTest')
+data.setCell(5, 2, 'com.luma.test.AddToWishlistTest')
+data.setCell(5, 3, 8692);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'saveAddressTest')
+data.setCell(6, 2, 'com.luma.test.AddressFillingPageTest')
+data.setCell(6, 3, 8588);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'AccountCreationTest')
+data.setCell(7, 2, 'com.luma.test.CreateAccountTest')
+data.setCell(7, 3, 8441);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'clickTest')
+data.setCell(8, 2, 'com.luma.test.AddReviewTest')
+data.setCell(8, 3, 8196);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'nextTest')
+data.setCell(9, 2, 'com.luma.test.AddReviewTest')
+data.setCell(9, 3, 7789);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'signOutTest')
+data.setCell(10, 2, 'com.luma.test.SignOutTest')
+data.setCell(10, 3, 7102);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'searchTest')
+data.setCell(11, 2, 'com.luma.test.AddReviewTest')
+data.setCell(11, 3, 6008);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'clickOnNextTest')
+data.setCell(12, 2, 'com.luma.test.CheckoutPageTest')
+data.setCell(12, 3, 5162);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginTest')
+data.setCell(13, 2, 'com.luma.test.LoginPageTest')
+data.setCell(13, 3, 5089);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'sortByTest')
+data.setCell(14, 2, 'com.luma.test.AddToCartTest')
+data.setCell(14, 3, 4787);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'clickOnBagsTest')
+data.setCell(15, 2, 'com.luma.test.AddToWishlistTest')
+data.setCell(15, 3, 4212);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'addToWishlistTest')
+data.setCell(16, 2, 'com.luma.test.AddToWishlistTest')
+data.setCell(16, 3, 3652);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'clickOnYogaTest')
+data.setCell(17, 2, 'com.luma.test.AddToCartTest')
+data.setCell(17, 3, 3604);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'clickOnGearTest')
+data.setCell(18, 2, 'com.luma.test.CheckoutPageTest')
+data.setCell(18, 3, 3539);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'clickOnCheckOutTest')
+data.setCell(19, 2, 'com.luma.test.CheckoutPageTest')
+data.setCell(19, 3, 3527);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'selectProductTest')
+data.setCell(20, 2, 'com.luma.test.HoodiesPageTest')
+data.setCell(20, 3, 3160);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'clickOnSignInTest')
+data.setCell(21, 2, 'com.luma.test.LoginPageTest')
+data.setCell(21, 3, 2737);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'clickOnSaleTest')
+data.setCell(22, 2, 'com.luma.test.HoodiesPageTest')
+data.setCell(22, 3, 2620);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'clickOnFitnessTest')
+data.setCell(23, 2, 'com.luma.test.CheckoutPageTest')
+data.setCell(23, 3, 2499);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'clickOnHoodiesTest')
+data.setCell(24, 2, 'com.luma.test.HoodiesPageTest')
+data.setCell(24, 3, 2236);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'clickOnImgTest')
+data.setCell(25, 2, 'com.luma.test.CheckoutPageTest')
+data.setCell(25, 3, 1937);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'clickOnCartTest')
+data.setCell(26, 2, 'com.luma.test.CheckoutPageTest')
+data.setCell(26, 3, 237);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'addToCartTest')
+data.setCell(27, 2, 'com.luma.test.AddToCartTest')
+data.setCell(27, 3, 231);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'addToCartTest')
+data.setCell(28, 2, 'com.luma.test.CheckoutPageTest')
+data.setCell(28, 3, 177);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'addReviewTest')
+data.setCell(29, 2, 'com.luma.test.AddReviewTest')
+data.setCell(29, 3, 173);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'addToCartTest')
+data.setCell(30, 2, 'com.luma.test.HoodiesPageTest')
+data.setCell(30, 3, 159);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verifyAddToCartTitleTest')
+data.setCell(31, 2, 'com.luma.test.AddToCartTest')
+data.setCell(31, 3, 41);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.luma.test.HoodiesPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">clickOnSaleTest</span>
+                <span class="method-start">15696 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnHoodiesTest</span>
+                <span class="method-start">18332 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectProductTest</span>
+                <span class="method-start">20571 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addToCartTest</span>
+                <span class="method-start">23746 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">23913 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.luma.test.SignOutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">24492 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signOutTest</span>
+                <span class="method-start">40172 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">47274 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.luma.test.AddressFillingPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">47951 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">clickOnWelcomeTest</span>
+                <span class="method-start">71333 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnAddressTest</span>
+                <span class="method-start">85924 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">saveAddressTest</span>
+                <span class="method-start">104565 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">113167 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.luma.test.CheckoutPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">113932 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">clickOnGearTest</span>
+                <span class="method-start">129494 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnFitnessTest</span>
+                <span class="method-start">133041 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnImgTest</span>
+                <span class="method-start">135540 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addToCartTest</span>
+                <span class="method-start">137477 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnCartTest</span>
+                <span class="method-start">137654 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnCheckOutTest</span>
+                <span class="method-start">137891 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnNextTest</span>
+                <span class="method-start">141429 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnPlaceTest</span>
+                <span class="method-start">146607 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">156786 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.luma.test.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">157431 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">clickOnSignInTest</span>
+                <span class="method-start">165211 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">167948 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">173037 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.luma.test.AddReviewTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">175162 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">searchTest</span>
+                <span class="method-start">192890 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">nextTest</span>
+                <span class="method-start">198904 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickTest</span>
+                <span class="method-start">206702 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addReviewTest</span>
+                <span class="method-start">214898 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">215079 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.luma.test.AddToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">215643 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">clickOnYogaTest</span>
+                <span class="method-start">233150 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortByTest</span>
+                <span class="method-start">236762 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addToCartTest</span>
+                <span class="method-start">241557 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAddToCartTitleTest</span>
+                <span class="method-start">241796 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">241837 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.luma.test.OpenWishlistTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">242390 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">myWishlisttest</span>
+                <span class="method-start">257718 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">267933 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.luma.test.AddToWishlistTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">268594 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">clickOnGearTest</span>
+                <span class="method-start">293874 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnBagsTest</span>
+                <span class="method-start">302566 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Features</span>
+                <span class="method-start">306778 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addToWishlistTest</span>
+                <span class="method-start">360815 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">364473 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.luma.test.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">365174 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">AccountCreationTest</span>
+                <span class="method-start">374011 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">382452 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
